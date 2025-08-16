@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dynamic Weather App</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" type="image/gif" href="favicon.gif" />
+</head>
+<body>
+  <div class="container">
+    <!-- Title + GIF -->
+    <div class="header">
+      <img src="logo.gif" alt="Weather" class="title-img" />
+      <h1>Weather Dashboard</h1>
+      <p id="greeting"></p>
+    </div>
+
+    <!-- City input + buttons -->
+    <div class="search-box">
+      <input type="text" id="cityInput" placeholder="Enter city name" autofocus />
+      <button onclick="getWeather()">Get Weather</button>
+      <button onclick="getLocationWeather()">Use My Location</button>
+    </div>
+
+    <!-- Error Message -->
+    <div id="errorMessage" class="error"></div>
+
+    <!-- Loader -->
+    <div id="loader" class="hidden">Loading...</div>
+
+    <!-- Weather Output -->
+    <div id="weatherResult" class="weather hidden">
+      <h2 id="cityName"></h2>
+      <img id="weatherIcon" src="" alt="Weather Icon" class="icon" />
+      <p><span id="temp"></span><span id="unit">°C</span></p>
+      <p id="desc"></p>
+      <p>Humidity: <span id="humidity"></span>%</p>
+      <p>Wind Speed: <span id="wind"></span> m/s</p>
+      <button id="toggleUnit">Switch to °F</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
