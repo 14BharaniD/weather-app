@@ -20,7 +20,8 @@ It allows users to search for weather details by city name or automatically fetc
 
 ## 🖼️ Screenshots
 
-![Weather App Demo](https://via.placeholder.com/800x400?text=Weather+App+Screenshot)
+## 🚀 Live Demo  
+👉 [View Weather Dashboard](https://bharani-dangeti.github.io/weather-app/)
 
 ---
 
