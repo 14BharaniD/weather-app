@@ -21,7 +21,7 @@ It allows users to search for weather details by city name or automatically fetc
 ## 🖼️ Screenshots
 
 ## 🚀 Live Demo  
-👉 [View Weather Dashboard]([https://bharani-dangeti.github.io/weather-app/](https://14bharanid.github.io/weather-app/))
+👉 [View Weather Dashboard]([https://bharani-dangeti.github.io/weather-app/])
 
 ---
 
